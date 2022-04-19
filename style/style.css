@@ -16,3 +16,22 @@ nav > a
     border: 1px solid #3475d6;
     border-radius: 10px;
 }
+img
+{
+    width: 100%;
+}
+.article
+{
+    width: 600px;
+    border: 1px solid #000;
+    margin: 20px auto;
+    padding: 10px;
+}
+article > section
+{
+    border: 1px solid transparent;
+}
+.footer
+{
+    padding: 10px;
+}
