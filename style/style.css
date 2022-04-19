@@ -1,10 +1,18 @@
 .logo
 {
-    border: 1px solid black;
-    height: 80px;
-    width: 100px;
+    display: inline-block;
+    color: #3475d6;
+    padding: 30px;
 }
 nav
 {
-    display: inline;
+    display: inline-block;
+}
+nav > a
+{
+    padding: 10px;
+    text-decoration: none;
+    color: #3475d6;
+    border: 1px solid #3475d6;
+    border-radius: 10px;
 }
