@@ -2,7 +2,7 @@
 {
     display: inline-block;
     color: #3475d6;
-    padding: 30px;
+    padding: 15px 30px;
 }
 nav
 {
@@ -16,9 +16,24 @@ nav > a
     border: 1px solid #3475d6;
     border-radius: 10px;
 }
+.banner
+{
+    margin-top: 30px;
+}
+.textbanner
+{
+    position: absolute;
+    color: #fff;
+    z-index: 300;
+    font-size: 80px;
+    top: 50%;
+    margin-left: 40%;
+    
+}
 img
 {
     width: 100%;
+    position: relative;
 }
 .article
 {
@@ -33,5 +48,5 @@ article > section
 }
 .footer
 {
-    padding: 10px;
+    padding: 5px;
 }
