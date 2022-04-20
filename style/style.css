@@ -41,6 +41,7 @@ img
     border: 1px solid #000;
     margin: 20px auto;
     padding: 10px;
+    border-radius: 5px;
 }
 article > section
 {
