@@ -4,9 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/style.css" rel="stylesheet">
+    <link href="style/normalize.css" rel="stylesheet">
     <title>css-flexbox-exercise-1</title>
 </head>
 <body>
-    
+    <header class="header">
+        <hr>
+        <h1 class="header-logo">Lista Zakupów</h1>
+        <div class="line">
+        </div>
+    </header>
+    <main class="wrapper">
+        <div class="box">
+            <div class="top img1">
+                <h1 class="logo">Owoce</h1>
+            </div>
+            <div class="content">
+                <ul class="list">
+                    <li class="list-item">Jabłka</li>
+                    <li class="list-item">Pomarańcze</li>
+                    <li class="list-item">Kiwi</li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <input type="checkbox" id="checkbox" name="checkbox">
+                <label for="checkbox"><spam class="bottom-txt">Owoce kupione</spam></label>
+            </div>
+        </div>
+        <div class="box">
+            <div class="top img2">
+                <h1 class="logo">Warzywa</h1>
+            </div>
+            <div class="content">
+                <ul class="list">
+                    <li class="list-item">Sałata</li>
+                    <li class="list-item">Ogórki
+                        <ul>
+                            <li class="list-item">Kiszone</li>
+                            <li class="list-item">Świeże</li>
+                        </ul>
+                    </li>
+                    <li class="list-item">Marchew</li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <input type="checkbox" id="checkbox" name="checkbox">
+                <label for="checkbox"><spam class="bottom-txt">Owoce kupione</spam></label>
+            </div>
+        </div>
+        <div class="box">
+            <div class="top img3">
+                <h1 class="logo">Nabiał</h1>
+            </div>
+            <div class="content">
+                <ul class="list">
+                    <li class="list-item">Mleko</li>
+                    <li class="list-item">Twaróg</li>
+                    <li class="list-item">Sery
+                        <ul>
+                            <li class="list-item">Żółty</li>
+                            <li class="list-item">Camembert</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom">
+                    <input type="checkbox" id="checkbox" name="checkbox">
+                    <label for="checkbox"><spam class="bottom-txt">Owoce kupione</spam></label>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <span>Choper 2022</span>
+    </footer>
 </body>
 </html>
