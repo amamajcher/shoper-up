@@ -1,0 +1,9 @@
+body
+{
+    background-color: #48cae4;
+}
+.main-wrapper{
+    width: 600px;
+    height: 1000px;
+    margin: 0 auto;
+}
